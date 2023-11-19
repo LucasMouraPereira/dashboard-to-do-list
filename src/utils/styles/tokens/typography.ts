@@ -1,7 +1,7 @@
 import { Roboto_Mono } from 'next/font/google'
 
 const fallback =
-  "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
+  '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif'
 
 export const roboto_mono = Roboto_Mono({
   subsets: ['latin'],
