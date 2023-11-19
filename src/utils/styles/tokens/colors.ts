@@ -4,7 +4,7 @@ export const colors = {
   },
   context: {
     page: {
-      bg: '#9dd5ed',
+      bg: '#EFF3FD',
       logo: '#1A1E29',
       text: '#00261C',
     },

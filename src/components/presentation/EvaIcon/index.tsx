@@ -1,10 +1,11 @@
+'use client'
 import Icon from 'react-eva-icons'
 
 type EvaIconProps = {
   name: string
   size: 'small' | 'medium' | 'large' | 'xlarge'
-  fill: string
-  animation: {
+  fill?: string
+  animation?: {
     type: 'zoom' | 'pulse' | 'shake' | 'flip'
     hover: boolean
     Infinity: boolean

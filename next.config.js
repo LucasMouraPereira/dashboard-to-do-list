@@ -11,6 +11,14 @@ const nextConfig = {
     reactRemoveProperties: true,
     removeConsole: true,
   },
+
+  reactStrictMode: true,
+  images: {
+    remotePatterns: [],
+    dangerouslyAllowSVG: true,
+    contentDispositionType: 'attachment',
+    contentSecurityPolicy: 'default-src "self"; script-src "none"; sandbox;',
+  },
 }
 
 module.exports = nextConfig
