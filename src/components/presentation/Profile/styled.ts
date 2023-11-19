@@ -11,8 +11,6 @@ export const ProfileContainer = styled.div`
     top: 8%;
     img {
       border-radius: 50%;
-      width: 100px;
-      height: 100px;
     }
   `}
 `

@@ -11,7 +11,7 @@ type ProfileProps = {
 export const Profile: React.FC<ProfileProps> = ({ photoURL, name, email }) => {
   return (
     <S.ProfileContainer>
-      <Image src={photoURL} width={100} height={100} alt="Profile" priority />
+      <Image src={photoURL} width={60} height={60} alt="Profile" priority />
       <S.ProfileDetails>
         <h2>{name}</h2>
         <p>{email}</p>

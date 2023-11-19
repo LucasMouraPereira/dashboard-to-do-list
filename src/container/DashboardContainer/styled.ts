@@ -47,3 +47,35 @@ export const WrapperButton = styled.div`
     }
   `}
 `
+
+export const WrapperGrid = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    ${theme.breakpoints.minWidth('sm')} {
+      justify-content: flex-start;
+      margin-top: 60px;
+    }
+  `}
+`
+
+export const WrapperTasks = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    width: 100%;
+    color: ${theme.colors.context.page.text}
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.288px;
+    background-color: ${theme.colors.primary[50]};
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    ${theme.breakpoints.minWidth('sm')} {
+      width: 90%
+    }
+  `}
+`
